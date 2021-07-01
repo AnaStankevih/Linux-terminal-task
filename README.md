@@ -1,2 +1,2 @@
-# Linux-terminal-task
+# Task-Linux-terminal
 List of the commands Linux terminal
