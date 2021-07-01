@@ -1,0 +1,35 @@
+#!/bin/bash
+echo "Hello I am a bashscript. Let's have a look what I can"
+sleep 0.5s
+echo "Step 1. Show me my direction"
+pwd
+sleep 0.2s
+echo "Step 2. Create a folder"
+mkdir /c/Users/admin/folder
+sleep 0.2s
+echo "Step 3. Enter in folder"
+cd /c/Users/admin/folder
+cd /c/Users/admin
+sleep 0.2s
+echo "Step 4. Create 3 folders"
+mkdir folder1 folder2 folder3
+sleep 0.2s
+echo "Step 5. Enter in folder1"
+cd /c/Users/admin/folder1
+echo "Step 6. Create in folder1 5 files"
+sleep 0.2s
+touch t2.txt t3.txt t4.txt r1.json r2.json
+cd /c/Users/admin/folder2
+sleep 0.2s
+echo "Step 7. Create  again 3 folders"
+mkdir folder4 folder5 folder6
+sleep 0.2s
+echo "Step 8. Output folder contents"
+ls /c/Users/admin/folder1
+cd /c/Users/admin/folder1
+sleep 0.2s
+echo "Step 9. Move 2 files from folder1 to folder3"
+mv t2.txt r1.json /c/Users/admin/folder3
+sleep 0.5s
+echo "Thanks for attention"
+echo "Bye!"
