@@ -1,2 +1,3 @@
 # Task-Linux-terminal
-List of the commands Linux terminal
+bashscript
+Task-Linux-terminal.pdf
